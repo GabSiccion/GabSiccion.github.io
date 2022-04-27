@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="CSS/topnav.css">
-    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="css/nav.css">
     
 </head>
 <body>
-    
+
 <div>
     <div id="SideNav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
-        <a href="#">Home</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
         <a href="#">Questionnaire</a>
         <a href="#">Course Selection</a>
         <a href="#">About</a>
     </div>
 </div>
 
-<div id="main">
+<div>
 
-    <h1 onclick="openNav()">Sample Text</h1>
+    <h1 onclick="openNav()">&#9776;</h1>
+    <h1>Sample Text</h1>
     <h1>Sample Text</h1>
     <h1>Sample Text</h1>
     <h1>Sample Text</h1>
@@ -39,17 +39,6 @@
 
 </div>
 
-<script>
-    function openNav() {
-        document.getElementById("SideNav").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-    }
-    
-    function closeNav() {
-        document.getElementById("SideNav").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-    }
-</script>
-
 </body>
+<script src="scripts.js"></script>
 </html>
