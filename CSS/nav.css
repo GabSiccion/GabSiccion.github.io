@@ -1,19 +1,25 @@
-body{
-  margin: 0;
-}
-
 .topnav {
   background-color: #087830;
   overflow: hidden;
 }
 
 .topnav a{
+  text-decoration: none;
   float:left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  font-size: 25px;
-  padding: 8px 8px 8px 16px;
+  font-size: 26px;
+  padding: 12px 20px 12px 20px;
+}
+
+.topnav .clickable_anchor:hover{
+  background-color: #818181;
+}
+
+.topnav .title{
+  cursor: default;
+  float: right;
 }
 
 .sidenav {
