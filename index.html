@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+        <link rel="stylesheet" href="CSS/stylesheet.css" />
+		<link rel="stylesheet" href="CSS/nav.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
 
-    <link rel="stylesheet" href="CSS/nav.css">
+	<body>
+		<div class="topnav">
+			<a href="javascript:void(0)" onclick="openNav()">
+				<i class="fa fa-bars"></i>
+            </a>
+			<a style="float: right">Course Exploration</a>
+		</div>
 
-</head>
+		<div id="SideNav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+				<i class="fa fa-crosshairs"></i>
+            </a>
+			<a href="index.html">Home</a>
+			<a href="#">Questionnaire</a>
+			<a href="#">Course Selection</a>
+			<a href="#">About</a>
+		</div>
 
-<body>
-
-
-    <div id="SideNav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Home</a>
-        <a href="#">Questionnaire</a>
-        <a href="#">Course Selection</a>
-        <a href="#">About</a>
-    </div>
-
-
-    <div id="main">
-
-        <h1 onclick="openNav()">&#9776;</h1>
-        <h1>Sample Text</h1>
-        <h1>Sample Text</h1>
-        <h1>Sample Text</h1>
-        <h1>Sample Text</h1>
-        <h2>Sample Text</h2>
-        <h2>Sample Text</h2>
-        <h2>Sample Text</h2>
-        <h2>Sample Text</h2>
-        <h3>Sample Text</h3>
-        <h3>Sample Text</h3>
-        <h3>Sample Text</h3>
-        <h3>Sample Text</h3>
-
-    </div>
-
-</body>
-<script src="scripts.js"></script>
-
+		<div class="container">
+			<div>
+				<h1>Sample Text</h1>
+				<h1>Sample Text</h1>
+				<h1>Sample Text</h1>
+				<h1>Sample Text</h1>
+				<h2>Sample Text</h2>
+				<h2>Sample Text</h2>
+				<h2>Sample Text</h2>
+				<h2>Sample Text</h2>
+				<h3>Sample Text</h3>
+				<h3>Sample Text</h3>
+				<h3>Sample Text</h3>
+				<h3>Sample Text</h3>
+			</div>
+		</div>
+	</body>
+	<script src="scripts.js"></script>
 </html>
