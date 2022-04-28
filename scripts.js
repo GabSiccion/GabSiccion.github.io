@@ -96,6 +96,8 @@ function closeNav() {
 		},
 	];
 
+	const lmao = "lmao";
+
 	// Kick things off
 	buildQuiz();
 
