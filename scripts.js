@@ -96,11 +96,22 @@ function closeNav() {
 		},
 	];
 
-	const lmao = "lmao";
-
-	// Kick things off
 	buildQuiz();
 
-	// Event listeners
-	submitButton.addEventListener("click", showResults);
+	function showResults2() {
+		var answer = document.getElementById("inputbox").value;
+		var correctAnswer = "123456";
+		if (answer === correctAnswer) {
+			document.getElementById("question").style.color = "lightgreen";
+		} else {
+			document.getElementById("question").style.color = "red";
+		}
+	}
+
+	function showallResults() {
+		showResults();
+		showResults2();
+	}
+
+	submitButton.addEventListener("click", showallResults);
 })();
