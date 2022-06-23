@@ -109,12 +109,12 @@ const questions = [
 	},
 	{
 		question:
-			"Which of the layers are responsible for establishing connnection between two physically-connected nodes on a network?",
+			"The second layer of the seven-layer OSI model of computer networking.",
 		a: "Application Layer",
 		b: "Presentation Layer",
 		c: "Data Link Layer",
 		d: "Physical Layer",
-		correct: "a",
+		correct: "C",
 		category: "Networking",
 	},
 ];
