@@ -32,3 +32,10 @@
 		object-fit: cover;
 	}
 }
+
+#ppt-container {
+	margin: 3rem 0 3rem 0;
+	width: inherit;
+	display: flex;
+	justify-content: center;
+}
