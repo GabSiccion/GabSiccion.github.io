@@ -10,37 +10,38 @@ $(document).ready(function () {
 	let course = getSelectedCourse();
 
 	for (let obj in courseData["Courses"]) {
+		let found = false;
 		if (courseData["Courses"][obj]["id"] == course) {
 			$("#header-text").text(courseData["Courses"][obj]["header-text"]);
 			$("#article-text").text(courseData["Courses"][obj]["article-text"]);
+			found = true;
+			for (let obj2 in courseData["Courses"][obj]["tracks"]) {
+				let track = document.createElement("p");
+				track.className = "display-4";
+				track.innerHTML =
+					courseData["Courses"][obj]["tracks"][obj2]["track-name"];
+
+				let text = document.createElement("p");
+				text.style = "font-size: 1.2rem";
+				text.innerHTML =
+					courseData["Courses"][obj]["tracks"][obj2]["track-text"];
+
+				let pptcontainer = document.createElement("div");
+				pptcontainer.id = "ppt-container";
+				let width = document.getElementById("content-box").offsetWidth;
+				let height = width / 1.8;
+
+				let frame = document.createElement("iframe");
+				frame.src = courseData["Courses"][obj]["tracks"][obj2]["track-ppt"];
+				frame.width = width + "px";
+				frame.height = height + "px";
+				pptcontainer.appendChild(frame);
+
+				$("#content-box").append(track);
+				$("#content-box").append(text);
+				$("#content-box").append(pptcontainer);
+			}
 		}
-		for (let obj2 in courseData["Courses"][obj]["tracks"]) {
-			console.log(obj);
-			let track = document.createElement("p");
-			track.className = "display-4";
-			track.innerHTML =
-				courseData["Courses"][obj]["tracks"][obj2]["track-name"];
-
-			let text = document.createElement("p");
-			text.style = "font-size: 1.2rem";
-			text.innerHTML = courseData["Courses"][obj]["tracks"][obj2]["track-text"];
-
-			let pptcontainer = document.createElement("div");
-			pptcontainer.id = "ppt-container";
-			let width = document.getElementById("content-box").offsetWidth;
-			let height = width / 1.8;
-
-			let frame = document.createElement("iframe");
-			frame.src = courseData["Courses"][obj]["tracks"][obj2]["track-ppt"];
-			frame.width = width + "px";
-			frame.height = height + "px";
-			pptcontainer.appendChild(frame);
-
-			document.getElementById("content-box").appendChild(track);
-			document.getElementById("content-box").appendChild(text);
-			document.getElementById("content-box").appendChild(pptcontainer);
-		}
-		break;
 	}
 	//Display Track Info
 });
