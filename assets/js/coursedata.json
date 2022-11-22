@@ -1,19 +1,38 @@
 {
-	"Information-Technology": {
-		"header-text": "Information Technology",
-		"article-text": "Information technology (IT) is the use of any computers, storage, networking and other physical devices, infrastructure and processes to create, process, store, secure and exchange all forms of electronic data. Typically, IT is used in the context of business operations, as opposed to technology used for personal or entertainment purposes. The commercial use of IT encompasses both computer technology and telecommunications. The Harvard Business Review coined the term information technology to make a distinction between purpose-built machines designed to perform a limited scope of functions, and general-purpose computing machines that could be programmed for various tasks. As the IT industry evolved from the mid-20th century, computing capability increased, while device cost and energy consumption decreased, a cycle that continues today when new technologies emerge.",
-		"powerpoint-src": [
-			"https://onedrive.live.com/embed?cid=DE20A942959736D3&resid=DE20A942959736D3%211571&authkey=AMRxdBpwnqoS5w4&em=2",
-			"https://onedrive.live.com/embed?cid=DE20A942959736D3&resid=DE20A942959736D3%211573&authkey=AKOwDoKU2CTkZdI&em=2"
-		]
-	},
-
-	"Computer-Science": {
-		"header-text": "Computer Science",
-		"article-text": "Computer Science (CS) is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application. Principal areas of study within Computer Science include artificial intelligence, computer systems and networks, security, database systems, human computer interaction, vision and graphics, numerical analysis, programming languages, software engineering, bioinformatics and theory of computing. Although knowing how to program is essential to the study of computer science, it is only one element of the field. Computer scientists design and analyze algorithms to solve programs and study the performance of computer hardware and software. The problems that computer scientists encounter range from the abstract-- determining what problems can be solved with computers and the complexity of the algorithms that solve them to the tangible designing applications that perform well on handheld devices, that are easy to use, and that uphold security measures.",
-		"powerpoint-src": [
-			"https://onedrive.live.com/embed?cid=DE20A942959736D3&resid=DE20A942959736D3%211571&authkey=AMRxdBpwnqoS5w4&em=2",
-			"https://onedrive.live.com/embed?cid=DE20A942959736D3&resid=DE20A942959736D3%211573&authkey=AKOwDoKU2CTkZdI&em=2"
-		]
-	}
+	"Courses": [
+		{
+			"id": "Information-Technology",
+			"header-text": "Information Technology",
+			"article-text": "Information technology (IT) is the use of any computers, storage, networking and other physical devices, infrastructure and processes to create, process, store, secure and exchange all forms of electronic data. Typically, IT is used in the context of business operations, as opposed to technology used for personal or entertainment purposes. The commercial use of IT encompasses both computer technology and telecommunications. The Harvard Business Review coined the term information technology to make a distinction between purpose-built machines designed to perform a limited scope of functions, and general-purpose computing machines that could be programmed for various tasks. As the IT industry evolved from the mid-20th century, computing capability increased, while device cost and energy consumption decreased, a cycle that continues today when new technologies emerge.",
+			"tracks": [
+				{
+					"track-name": "Networking",
+					"track-text": "Networking track description",
+					"track-ppt": "https://onedrive.live.com/embed?cid=A53F92B0D7385D3A&resid=A53F92B0D7385D3A%21111&authkey=AG6KlHHxulAZUlY&em=2"
+				},
+				{
+					"track-name": "Web Development",
+					"track-text": "Web Development track description.",
+					"track-ppt": "https://onedrive.live.com/embed?cid=A53F92B0D7385D3A&resid=A53F92B0D7385D3A%21115&authkey=ACj7JLXhJgqLNio&em=2"
+				}
+			]
+		},
+		{
+			"id": "Computer-Science",
+			"header-text": "Computer Science",
+			"article-text": "Computer Science (CS) is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application. Principal areas of study within Computer Science include artificial intelligence, computer systems and networks, security, database systems, human computer interaction, vision and graphics, numerical analysis, programming languages, software engineering, bioinformatics and theory of computing. Although knowing how to program is essential to the study of computer science, it is only one element of the field. Computer scientists design and analyze algorithms to solve programs and study the performance of computer hardware and software. The problems that computer scientists encounter range from the abstract-- determining what problems can be solved with computers and the complexity of the algorithms that solve them to the tangible designing applications that perform well on handheld devices, that are easy to use, and that uphold security measures.",
+			"tracks": [
+				{
+					"track-name": "Game Development",
+					"track-text": "Game development track description",
+					"track-ppt": "https://onedrive.live.com/embed?cid=A53F92B0D7385D3A&resid=A53F92B0D7385D3A%21117&authkey=AP1SiA8JK8U8GFE&em=2"
+				},
+				{
+					"track-name": "Machine Learning",
+					"track-text": "Machine Learning track description",
+					"track-ppt": "https://onedrive.live.com/embed?cid=A53F92B0D7385D3A&resid=A53F92B0D7385D3A%21119&authkey=AH3NpOCcMQ7Cf7Q&em=2"
+				}
+			]
+		}
+	]
 }
